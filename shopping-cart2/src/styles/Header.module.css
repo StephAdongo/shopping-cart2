@@ -1,0 +1,47 @@
+.logo {
+  font-family: "Arizonia", system-ui, sans-serif;
+}
+
+.header {
+  width: 100%;
+  background-color: #ffd63a;
+}
+
+.header > nav {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 8px 1rem;    
+  display: flex;
+  justify-content: center;
+}
+
+.header > nav > ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.header > nav > ul > li:nth-child(3) {
+  flex-grow: 1;
+}
+
+.header > nav > ul > li > a {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.items {
+  font-size: 0.75em;
+  color: #fff;
+  background-color: #ff0000;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
