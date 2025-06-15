@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router';
 import Styles from '/src/styles/Homepage.module.css';
 
-const HomePage = () => {
+const Homepage = () => {
     return (
         <section className ={Styles.homepage}>
             <div>
@@ -16,4 +16,4 @@ const HomePage = () => {
     );
 
 }
-export default HomePage;
+export default Homepage;
