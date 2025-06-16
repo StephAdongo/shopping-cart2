@@ -1,7 +1,7 @@
 import React from 'react';
 import {useNavigate} from 'react-router-dom';
 import {useState, useEffect} from 'react';
-import Styles from '/src/styles/unknownPage.module.css';
+import Styles from '/src/styles/UnknownPage.module.css';
 
 const UnknownPage = () => {
     const navigate = useNavigate();
