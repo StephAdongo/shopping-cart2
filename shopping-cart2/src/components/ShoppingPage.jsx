@@ -4,7 +4,7 @@ import Styles from '/src/styles/ShoppingPage.module.css';
 import { toTitleCase } from '/src/components/Utility.jsx';
 import { ClipLoader } from "react-spinners";
 import { MdError, MdCheckCircle } from "react-icons/md";
-import { useFetchProducts } from '/src/components/useFetchProducts';
+import { UseFetchProducts } from '/src/components/UseFetchProducts.jsx';
 import CartContext from './CartContext';
 
 const NetworkError = () => {
@@ -104,7 +104,7 @@ const ItemCard = ({ category, imgURL, title, price, notify }) => {
 }
 
 const ShoppingPage = () => {
-      const { products, loading, error } = useFetchProducts();
+      const { products, loading, error } = UseFetchProducts();
       const [animateKey, setAnimateKey] = useState(0);
 
       const notify = () => {
