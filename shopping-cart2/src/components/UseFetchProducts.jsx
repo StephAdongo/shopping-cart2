@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import React from 'react';
-export const useFetchProducts = () => {
+export const UseFetchProducts = () => {
       const [products, setProducts] = useState([]);
       const [loading, setLoading] = useState(true);
       const [error, setError] = useState(null);
