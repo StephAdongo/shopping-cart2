@@ -63,20 +63,20 @@ const FormCheckout = () => {
                   <h2>Checkout Form</h2>
                   <div>
                         <label htmlFor="email">Email</label>
-                        <input type="text" id="email" name="email" placeholder="sample@xyz.com" />
+                        <input type="text" id="email" name="email" placeholder="adongo@gmail.com" />
                   </div>
                   <div>
                         <label htmlFor="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Adam Peter" />
+                        <input type="text" id="name" name="name" placeholder="Steph Adongo" />
                   </div>
                   <div className={Styles.address}>
                         <label htmlFor="address">Address</label>
                         <input type="text" id="country" name="country" placeholder="Country" />
                         <input type="text" id="address" name="address" placeholder="Address" />
-                        <div>
-                              <input type="text" id="city" name="city" placeholder="City" />
-                              <input type="number" id="postal" name="postal" placeholder="Postal Code/Zip" />
-                        </div>
+            
+                         <input type="text" id="city" name="city" placeholder="City" />
+                         <input type="number" id="postal" name="postal" placeholder="Postal Code/Zip" />
+                        
                         <input type="text" id="province" name="province" placeholder="State/Province/Region" />
                   </div>
 
